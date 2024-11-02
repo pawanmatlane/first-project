@@ -1,0 +1,240 @@
+<style>
+@font-face {
+    font-family: Oswald-VariableFont_wght;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+p {
+    font-family: 'robotp', sans-serif;
+}
+
+h1 {
+    font-family: Oswald-VariableFont_wght;
+}
+
+#topbar {
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+
+.uni-padding {
+    padding: 0 7%;
+}
+
+#icon {
+    float: right;
+    padding-bottom: 5px;
+}
+
+#toll {
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#img {
+    width: 130px;
+    height: 70px;
+    color: white;
+}
+
+#navbar {
+    background-color: red;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+/*poster middle part*/
+
+#poster {
+    background-image: url(images/banner.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /*lines ko center lane ke liye*/
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#poster h1 {
+    font-size: 50px;
+}
+
+#poster p {
+    font-size: 18px;
+    text-align: center;
+}
+/*why section*/
+
+#whysection {
+    overflow: auto;
+    margin-bottom: 70px;
+}
+
+.section33 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.redheading {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.section33 h2 {
+    color: red;
+}
+
+#contact {
+    background-color: red;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section70 {
+    width: 70%;
+    float: left;
+}
+
+.section30 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#contact-btn {
+    background-color: white;
+    color: red;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font: bold;
+}
+/* blog*/
+
+.section33 {
+    max-width: 100%;
+}
+
+.section33 a {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*suscribe section*/
+
+#subsection {
+    background-color: red;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section50 {
+    width: 50%;
+    float: left;
+}
+
+.section50 h2 {
+    font-size: 30px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+#section50 form {
+    padding-top: 25px;
+}
+
+#section50 input[type="text"] {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: red;
+    margin-right: 15px;
+    border: 0px;
+    width: 20%;
+}
+
+#section50 input[type="submit"] {
+    padding: 8px 35px;
+    font-size: 15px;
+    color: red;
+    border: 0;
+}
+/*footer*/
+
+#imp-link {
+    background-color: grey;
+    color: white;
+    overflow: auto;
+}
+
+.div33 {
+    width: 33.33%;
+    float: left;
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+
+.div33 h2 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+#footermenu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footermenu li {
+    padding-bottom: 2px;
+}
+
+#footermenu li a {
+    text-decoration: none;
+    color: white;
+    text-decoration-thickness: 2px;
+}
+
+#footermenucontainer {
+    padding-left: 100px;
+}
+
+#copy-right {
+    background-color: #222f3e;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+</style>
